@@ -4,6 +4,6 @@ class Solution {
         if(s.charAt(0)-'0'==x){
             return false;
         }
-        return s.indexOf(Integer.toString(x),1)!=-1;
+        return s.contains(Integer.toString(x));
     }
 }
